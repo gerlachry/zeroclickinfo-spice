@@ -40,6 +40,30 @@ ddg_spice_test(
         '/js/spice/bible/random',
         caller    => 'DDG::Spice::Bible',
     ),
+     'verse of the day' => test_spice(
+        '/js/spice/bible/votd',
+        caller    => 'DDG::Spice::Bible',
+    ),
+     'bible verse of the day' => test_spice(
+        '/js/spice/bible/votd',
+        caller    => 'DDG::Spice::Bible',
+    ),
+     'verse of day' => test_spice(
+        '/js/spice/bible/votd',
+        caller    => 'DDG::Spice::Bible',
+    ),
+     'bible verse of day' => test_spice(
+        '/js/spice/bible/votd',
+        caller    => 'DDG::Spice::Bible',
+    ),
+     'verse of today' => test_spice(
+        '/js/spice/bible/votd',
+        caller    => 'DDG::Spice::Bible',
+    ),
+     'bible verse of today' => test_spice(
+        '/js/spice/bible/votd',
+        caller    => 'DDG::Spice::Bible',
+    ),
 );
 
 done_testing;

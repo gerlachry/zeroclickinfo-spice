@@ -16,6 +16,9 @@ handle query_lc => sub {
     if ($_ =~ /^bible\s+(?:random|random verse)$/i || $_ =~ /^random bible verse$/i || $_ =~ /^random verse bible$/i || $_ =~ /^random verse from the bible$/i){
         return 'random';
     }
+    if ($_ =~ /^bible\s+(?:verse of the day|verse of day|verse of today)$/i || $_ =~ /^verse\s+(?:of the day|of day|of today)$/i){
+        return 'votd';
+    }
     return;
 };
 1;

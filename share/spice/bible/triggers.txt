@@ -69,3 +69,9 @@ random
 random verse
 random bible verse
 random verse bible
+verse of the day
+bible verse of the day
+verse of day
+bible verse of day
+verse of today
+bible verse of today
